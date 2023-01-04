@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Example</title>
+    </head>
+    <body>
+        
+        <legend align="center">
+            
+                <b>Add Product Form</b>
+               
+            
+        </legend>
+        <form action="welcome.html" method="post">
+        <table cellspacing="4" align="center">
+            <br>    
+            <tr>
+                <td>
+                    <label>Product Details</label>s
+                </td>
+                <td>
+                    <input required type="text" id="product name" name="product name" placeholder="Enter Product Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Product Quantity</label></td>
+                <td>
+                    
+                    <input type="number" max="100" min="1" step="9" placeholder="Enter Quantity">                </td>
+            </tr>
+            <tr>
+                <td><label>Product Price</label></td>
+                <td>
+                    <input required type="number"  max="1000" min="9" step="10" placeholder="Enter Price">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Mode of Payment</label></td>
+                <td>
+                    <select required name="payment" id="payment">
+                        <option value="">Select</option>
+                        <option value="upi">UPI</option>
+                        <option value="netbanking">NETBANKING</option>
+                        <option value="cod">COD</option>
+                    </select>
+                </td>
+            </tr>
+            
+            
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Add Product">
+                    <button type="reset">Clear</button>
+                </td>
+            </tr>
+        </table>
+        </form>
+   
+    </body>
+</html> 

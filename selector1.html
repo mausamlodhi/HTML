@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Descendent Selector</title>
+        <style>
+            div span{
+                color: rgb(0, 255, 64);
+                text-transform: uppercase;
+            }
+            p{
+                color: aqua;
+            }
+            div p{
+                text-shadow: 20px;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, molestiae!</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eum.</span>
+        </div>
+        <span>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nisi.</p>
+            </div>
+        </span>
+    </body>
+</html>
